@@ -1,0 +1,25 @@
+[user]
+  name = Karl Baum
+  email = karl.baum@gmail.com
+[alias]
+  co = checkout
+  rb = rebase
+  aa = add --all
+  s = status
+  # Log display from screencast, with train tracks.
+  l = log --graph -n 1500 --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
+  # Alternate log display from Scott Chacon
+  lol = log -n 100 --pretty=oneline --abbrev-commit --graph --decorat
+
+[github]
+	user = karl.baum@gmail.com
+[core]
+	excludesfile = /Users/karl.baum/.gitignore
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[url "https://github.com"]
+	insteadOf = git://github.com
+[push]
+	default = current

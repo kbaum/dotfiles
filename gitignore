@@ -1,0 +1,4 @@
+*.swp
+.overcommit.yml
+db/data_schema.rb
+.bin
