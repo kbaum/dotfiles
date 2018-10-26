@@ -10,4 +10,5 @@ cask 'iterm2'
 cask 'slack'
 cask 'google-chrome'
 cask 'macdown'
+cask 'spectacle'
 
