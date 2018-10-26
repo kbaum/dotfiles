@@ -6,6 +6,9 @@
 
 - link:
     ~/.dotfiles: ''
+    ~/.bash_profile: bash_profile
+    ~/.aliases: aliases
+    ~/.functions: functions
     ~/.vimrc: vimrc
     ~/.vim: vim
     ~/.gitignore: gitignore

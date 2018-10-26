@@ -1,0 +1,4 @@
+function fixup {
+  git add . && git commit --fixup=$1 && git rebase -i --autosquash $1^
+}
+
