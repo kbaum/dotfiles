@@ -9,6 +9,7 @@
     ~/.bash_profile: bash_profile
     ~/.aliases: aliases
     ~/.functions: functions
+    ~/.paths: paths
     ~/.vimrc: vimrc
     ~/.vim: vim
     ~/.gitignore: gitignore
