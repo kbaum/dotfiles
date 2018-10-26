@@ -10,7 +10,7 @@
     ~/.aliases: aliases
     ~/.functions: functions
     ~/.paths: paths
-    ~/.vimrc: vimrc
+    ~/.vimrc: vim/vimrc
     ~/.vim: vim
     ~/.gitignore: gitignore
     ~/.gitconfig: gitconfig
