@@ -11,4 +11,4 @@ cask 'slack'
 cask 'google-chrome'
 cask 'macdown'
 cask 'spectacle'
-
+cask 'google-backup-and-sync'
