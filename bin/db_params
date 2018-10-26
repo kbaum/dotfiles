@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'uri'
+
+uri = URI(ARGV[0])
+props = {username: uri.user, password: uri.password, host: uri.host, port: uri.port, database: uri.path[1..-1]}
+props.each do |key, value|
+  puts "#{key}=#{props[key]}"
+end

@@ -12,6 +12,7 @@
     ~/.gitconfig: gitconfig
     ~/.gemrc: gemrc
     ~/.git-completion.bash: git-completion.bash
+    ~/bin: bin
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
