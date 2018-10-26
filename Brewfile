@@ -13,6 +13,7 @@ cask 'slack'
 cask 'google-chrome'
 cask 'macdown'
 cask 'spectacle'
+cask 'zoomus'
 cask 'google-backup-and-sync'
 brew 'rabbitmq', restart_service: true
 brew 'postgresql'
