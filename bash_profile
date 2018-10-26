@@ -16,8 +16,6 @@ function fixup {
   git add . && git commit --fixup=$1 && git rebase -i --autosquash $1^
 }
 
-[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
-export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 
 . ~/.git-completion.bash
@@ -28,5 +26,4 @@ source /usr/local/share/chruby/auto.sh
 chruby 2.4.4
 
 #binstubs
-export PATH=$PWD/bin:$PATH
 export PATH="./.bin:$PATH"
