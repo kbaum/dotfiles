@@ -4,3 +4,6 @@
 [submodule "vim"]
 	path = vim
 	url = https://github.com/kbaum/vim.git
+[submodule "dotbot-brewfile"]
+	path = dotbot-brewfile
+	url = https://github.com/sobolevn/dotbot-brewfile.git

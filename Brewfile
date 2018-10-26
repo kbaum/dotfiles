@@ -1,0 +1,10 @@
+tap 'caskroom/cask'
+tap 'caskroom/fonts'
+tap 'homebrew/bundle'
+tap 'homebrew/core'
+tap 'homebrew/services'
+brew 'git'
+cask 'iterm2'
+cask 'slack'
+cask 'google-chrome'
+
