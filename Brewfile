@@ -17,3 +17,4 @@ cask 'zoomus'
 cask 'google-backup-and-sync'
 brew 'rabbitmq', restart_service: true
 brew 'postgresql'
+brew 'fzf'
