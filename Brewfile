@@ -5,6 +5,7 @@ tap 'homebrew/core'
 tap 'homebrew/services'
 tap "heroku/brew"
 brew 'git'
+brew 'node'
 brew 'heroku/brew/heroku'
 brew 'ruby-install'
 brew 'chruby'
