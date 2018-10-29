@@ -17,3 +17,5 @@ git submodule update --init --recursive "${DOTBOT_DIR}"
 ruby-install ruby-2.4.4 --no-reinstall
 
 heroku plugins:install heroku-accounts
+
+ npm install -g n
