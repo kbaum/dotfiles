@@ -19,5 +19,6 @@ ruby-install ruby-2.4.4 --no-reinstall
 heroku plugins:install heroku-accounts
 
 npm install -g n
+npm install -g bower
 
 curl http://localhost:15672/cli/rabbitmqadmin -o /usr/local/bin/rabbitmqadmin && chmod +x /usr/local/bin/rabbitmqadmin
