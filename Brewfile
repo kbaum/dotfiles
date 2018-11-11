@@ -55,3 +55,4 @@ brew 'groff'
 brew 'gzip'
 brew 'make', args: ['with-default-names']
 
+cask "growlnotify"
