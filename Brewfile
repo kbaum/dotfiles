@@ -36,3 +36,22 @@ cask "sublime-text"
 cask "spectacle"
 cask "zoomus"
 cask "sip"
+
+brew 'binutils'
+brew 'coreutils'
+brew 'diffstat'
+brew 'diffutils'
+brew 'findutils'
+brew 'gawk'
+brew 'gnu-indent', args: ['with-default-names']
+brew 'gnu-sed', args: ['with-default-names']
+brew 'gnu-tar', args: ['with-default-names']
+brew 'gnu-units', args: ['with-default-names']
+brew 'gnu-which', args: ['with-default-names']
+brew 'gpatch'
+brew 'gperf'
+brew 'grep', args: ['with-default-names']
+brew 'groff'
+brew 'gzip'
+brew 'make', args: ['with-default-names']
+
