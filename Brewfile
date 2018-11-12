@@ -56,3 +56,4 @@ brew 'gzip'
 brew 'make', args: ['with-default-names']
 
 cask "growlnotify"
+cask "karabiner-elements"
