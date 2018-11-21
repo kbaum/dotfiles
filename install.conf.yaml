@@ -6,6 +6,7 @@
 
 - link:
     ~/.dotfiles: ''
+    ~/.zshrc: zshrc
     ~/.bash_profile: bash_profile
     ~/.aliases: aliases
     ~/.functions: functions
