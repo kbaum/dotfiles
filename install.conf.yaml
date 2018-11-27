@@ -18,6 +18,7 @@
     ~/.gemrc: gemrc
     ~/.git-completion.bash: git-completion.bash
     ~/bin: bin
+    ~/.inputrc: inputrc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
