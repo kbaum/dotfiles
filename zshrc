@@ -129,3 +129,4 @@ if [[ -n "$ZSH_VERSION" ]]; then
     preexec_functions+=("add_trusted_local_bin_to_path")
   fi
 fi
+[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
