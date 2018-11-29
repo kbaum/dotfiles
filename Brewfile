@@ -22,6 +22,7 @@ brew "gawk"
 brew "gdbm"
 brew "git"
 brew "git-lfs"
+brew "bash-completion"
 brew "gnu-indent", args: ["with-default-names"]
 brew "gnu-sed", args: ["with-default-names"]
 brew "gnu-tar", args: ["with-default-names"]

@@ -100,7 +100,6 @@ source $ZSH/oh-my-zsh.sh
   set -o vi
   export EDITOR=vim
 
-  source ~/.git-completion.bash
   source ~/.aliases
   source ~/.functions
 
