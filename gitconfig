@@ -9,7 +9,6 @@
   # Log display from screencast, with train tracks.
   l = log --graph -n 1500 --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
   # Alternate log display from Scott Chacon
-  lol = log -n 100 --pretty=oneline --abbrev-commit --graph --decorat
   trust = "!mkdir -p .git/safe"
 [github]
 	user = karl.baum@gmail.com

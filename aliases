@@ -2,6 +2,8 @@ alias vi=vim
 alias branches="git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate:short) %(authorname) %(refname:short)' | more"
 alias vim='mvim -v'
 alias vi='vim'
-alias ember-api="ember s --proxy=http://localhost:3000 --live-reload-port 45729"
+
+#liftforward 
+alias ember-api="ember s --proxy=http://localhost:3000"
 
 

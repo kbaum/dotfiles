@@ -2,3 +2,9 @@ function fixup {
   git add . && git commit --fixup=$1 && git rebase -i --autosquash $1^
 }
 
+function coverage {
+  spring stop
+  REDIS_URL=`heroku config:get REDIS_URL -a lift-api` bundle exec rake coverband:coverage
+  spring stop
+}
+
