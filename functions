@@ -4,7 +4,7 @@ function fixup {
 
 function coverage {
   spring stop
-  REDIS_URL=`heroku config:get REDIS_URL -a lift-api` bundle exec rake coverband:coverage
+  COVERBAND_TRACK_GEMS=t REDIS_URL=`heroku config:get REDIS_URL -a lift-api` bundle exec rake coverband:coverage_server
   spring stop
 }
 
