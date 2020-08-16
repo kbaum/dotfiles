@@ -1,3 +1,4 @@
+tap "github/gh"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -14,9 +15,10 @@ brew "binutils"
 brew "bison"
 brew "gdbm"
 brew "libffi"
+brew "openssl@1.1"
 brew "readline"
 brew "sqlite"
-brew "python"
+brew "python@3.8"
 brew "chruby"
 brew "cmake"
 brew "coreutils"
@@ -33,28 +35,31 @@ brew "geckodriver", link: false
 brew "giflossy"
 brew "git"
 brew "git-lfs"
-brew "gnu-indent", args: ["with-default-names"]
+brew "gnu-indent"
 brew "gnu-sed"
 brew "gnu-tar"
 brew "gnu-units"
 brew "gnu-which", args: ["with-default-names"]
 brew "gpatch"
 brew "gperf"
+brew "gts"
 brew "graphviz"
 brew "grep"
 brew "groff"
 brew "gzip"
+brew "httpie"
 brew "hub"
+brew "libheif"
 brew "imagemagick"
+brew "krb5"
 brew "libyaml"
 brew "lua@5.1"
 brew "make", args: ["with-default-names"]
 brew "mas"
 brew "nginx", restart_service: true
 brew "node", link: false
-brew "openssl@1.1"
 brew "postgresql", restart_service: true
-brew "postgresql@10", restart_service: true
+brew "postgresql@11"
 brew "prettier"
 brew "rabbitmq", restart_service: true
 brew "redis", restart_service: true
@@ -66,6 +71,7 @@ brew "watchman"
 brew "wget"
 brew "yarn", link: false
 brew "zsh"
+brew "github/gh/gh"
 brew "heroku/brew/heroku"
 brew "puma/puma/puma-dev"
 cask "1password"
@@ -90,9 +96,12 @@ mas "Evernote", id: 406056744
 mas "GarageBand", id: 682658836
 mas "GIPHY CAPTURE", id: 668208984
 mas "iMovie", id: 408981434
+mas "Install macOS Catalina", id: 0
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
+mas "Microsoft To Do", id: 1274495053
 mas "Monosnap", id: 540348655
 mas "Numbers", id: 409203825
+mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
-mas "Wunderlist", id: 410628904
+mas "Weather Dock", id: 886290397
