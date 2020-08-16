@@ -5,21 +5,25 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "puma/puma"
+tap "tophat/bar"
+cask "adoptopenjdk8"
 brew "automake"
 brew "bash-completion"
 brew "binutils"
 brew "bison"
 brew "gdbm"
 brew "libffi"
-brew "openssl"
 brew "readline"
 brew "sqlite"
 brew "python"
 brew "chruby"
+brew "cmake"
 brew "coreutils"
 brew "diffstat"
 brew "diffutils"
 brew "direnv"
+brew "elasticsearch@5.6", restart_service: true
 brew "erlang"
 brew "ffmpeg"
 brew "findutils"
@@ -43,11 +47,14 @@ brew "gzip"
 brew "hub"
 brew "imagemagick"
 brew "libyaml"
+brew "lua@5.1"
 brew "make", args: ["with-default-names"]
 brew "mas"
 brew "nginx", restart_service: true
 brew "node", link: false
+brew "openssl@1.1"
 brew "postgresql", restart_service: true
+brew "postgresql@10", restart_service: true
 brew "prettier"
 brew "rabbitmq", restart_service: true
 brew "redis", restart_service: true
@@ -57,9 +64,10 @@ brew "the_silver_searcher"
 brew "tnftp"
 brew "watchman"
 brew "wget"
-brew "yarn"
+brew "yarn", link: false
 brew "zsh"
 brew "heroku/brew/heroku"
+brew "puma/puma/puma-dev"
 cask "1password"
 cask "atom"
 cask "chromedriver"
@@ -78,13 +86,13 @@ cask "slack"
 cask "spectacle"
 cask "sublime-text"
 cask "zoomus"
-mas "com.amazon.Kindle", id: 405399194
-mas "com.apple.garageband10", id: 682658836
-mas "com.apple.iMovieApp", id: 408981434
-mas "com.apple.iWork.Keynote", id: 409183694
-mas "com.apple.iWork.Numbers", id: 409203825
-mas "com.apple.iWork.Pages", id: 409201541
-mas "com.fasthatchapps.gifgrabberosx", id: 668208984
-mas "com.kyome.RunCat", id: 1429033973
-mas "com.monosnap.monosnap", id: 540348655
-mas "com.wunderkinder.wunderlistdesktop", id: 410628904
+mas "Evernote", id: 406056744
+mas "GarageBand", id: 682658836
+mas "GIPHY CAPTURE", id: 668208984
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
+mas "Monosnap", id: 540348655
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Wunderlist", id: 410628904

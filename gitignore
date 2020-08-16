@@ -3,3 +3,14 @@
 .overcommit.yml
 db/data_schema.rb
 .bin
+app/workers/test_worker.rb
+.DS_Store
+.gulp-cache*
+config/credentials/
+.env.local
+app/jobs/test_logging_job.rb
+doc
+bin
+bin/rails
+bin/rspec
+.env.production

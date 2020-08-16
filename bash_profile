@@ -11,3 +11,9 @@ source /usr/local/share/chruby/auto.sh
 
 source ~/.paths
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
+export HISTTIMEFORMAT="%d/%m/%y %T "
+
+export YVM_DIR=/usr/local/opt/yvm
+[ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh
+
+ulimit -n 7000

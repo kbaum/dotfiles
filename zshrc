@@ -130,3 +130,16 @@ if [[ -n "$ZSH_VERSION" ]]; then
   fi
 fi
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
+
+export YVM_DIR=/usr/local/opt/yvm
+[ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh
+
+
+#paperclip failing
+ulimit -n 7000
+
+# https://github.com/darkskyapp/forecast-ruby/issues/13
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
+
+export SMEE_URL=https://smee.io/hOIwIuc2uqHRFpD4

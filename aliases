@@ -2,8 +2,15 @@ alias vi=vim
 alias branches="git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate:short) %(authorname) %(refname:short)' | more"
 alias vim='mvim -v'
 alias vi='vim'
+alias db:migrate:reset="./bin/rails db:migrate:reset db:test:prepare"
+alias db:migrate="./bin/rails db:migrate db:test:prepare"
+alias parallel:prepare="./bin/rails parallel:prepare"
+alias parallel:rspec="RAILS_ENV=test ./bin/rake parallel:spec"
+alias db:migrate:redo="./bin/rails db:migrate:redo db:test:prepare"
+alias db:rollback="./bin/rails db:rollback  db:test:prepare"
 
 #liftforward 
 alias ember-api="ember s --proxy=http://localhost:3000"
 
+alias lua="lua-5.1"
 

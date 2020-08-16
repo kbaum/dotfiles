@@ -2,4 +2,7 @@ export PATH="$HOME/bin:/usr/local/bin:$PATH"
 #binstubs
 export PATH="./.bin:./bin:$PATH"
 
+#gnu
+PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+
 
