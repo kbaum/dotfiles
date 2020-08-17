@@ -9,6 +9,7 @@ tap "homebrew/services"
 tap "puma/puma"
 tap "tophat/bar"
 cask "adoptopenjdk8"
+cask "dbeaver-community"
 brew "automake"
 brew "bash-completion"
 brew "binutils"
@@ -25,7 +26,7 @@ brew "coreutils"
 brew "diffstat"
 brew "diffutils"
 brew "direnv"
-brew "elasticsearch@5.6", restart_service: true
+brew "elasticsearch"
 brew "erlang"
 brew "ffmpeg"
 brew "findutils"
@@ -39,7 +40,7 @@ brew "gnu-indent"
 brew "gnu-sed"
 brew "gnu-tar"
 brew "gnu-units"
-brew "gnu-which", args: ["with-default-names"]
+brew "gnu-which"
 brew "gpatch"
 brew "gperf"
 brew "gts"
@@ -54,12 +55,11 @@ brew "imagemagick"
 brew "krb5"
 brew "libyaml"
 brew "lua@5.1"
-brew "make", args: ["with-default-names"]
+brew "make"
 brew "mas"
 brew "nginx", restart_service: true
 brew "node", link: false
 brew "postgresql", restart_service: true
-brew "postgresql@11"
 brew "prettier"
 brew "rabbitmq", restart_service: true
 brew "redis", restart_service: true
@@ -87,7 +87,6 @@ cask "java"
 cask "karabiner-elements"
 cask "macdown"
 cask "macvim"
-cask "sip"
 cask "slack"
 cask "spectacle"
 cask "sublime-text"
@@ -96,7 +95,6 @@ mas "Evernote", id: 406056744
 mas "GarageBand", id: 682658836
 mas "GIPHY CAPTURE", id: 668208984
 mas "iMovie", id: 408981434
-mas "Install macOS Catalina", id: 0
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "Microsoft To Do", id: 1274495053
