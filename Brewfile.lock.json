@@ -20,7 +20,7 @@
         "revision": "4b2da5f7e463d2a152327acb95a991ceb47f9b55"
       },
       "homebrew/core": {
-        "revision": "8b01a502b07833e1b509dbd111d05463863ab6c8"
+        "revision": "47a43d79f2a606877135bd5992896282697b96b1"
       },
       "homebrew/services": {
         "revision": "95a4c434575c715632b7cf19f5fc61413aad1c3b"
@@ -1487,10 +1487,7 @@
       },
       "yarn": {
         "version": "1.22.4",
-        "bottle": false,
-        "options": {
-          "link": false
-        }
+        "bottle": false
       },
       "zsh": {
         "version": "5.8",
@@ -1524,7 +1521,7 @@
       },
       "GarageBand": {
         "id": "682658836",
-        "version": "10.3.4"
+        "version": "10.3.5"
       },
       "GIPHY CAPTURE": {
         "id": "668208984",
@@ -1552,7 +1549,7 @@
       },
       "Numbers": {
         "id": "409203825",
-        "version": "6.2.1"
+        "version": "10.1"
       },
       "OneDrive": {
         "id": "823766827",
@@ -1560,7 +1557,7 @@
       },
       "Pages": {
         "id": "409201541",
-        "version": "8.2.1"
+        "version": "10.1"
       },
       "Weather Dock": {
         "id": "886290397",
@@ -1573,7 +1570,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.4.11",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "8b01a502b07833e1b509dbd111d05463863ab6c8",
+        "Homebrew/homebrew-core": "47a43d79f2a606877135bd5992896282697b96b1",
         "CLT": "11.5.0.0.1.1588476445",
         "Xcode": "11.5",
         "macOS": "10.15.4"

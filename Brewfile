@@ -69,7 +69,7 @@ brew "the_silver_searcher"
 brew "tnftp"
 brew "watchman"
 brew "wget"
-brew "yarn", link: false
+brew "yarn"
 brew "zsh"
 brew "github/gh/gh"
 brew "heroku/brew/heroku"
