@@ -5,25 +5,25 @@
         "revision": "de8d7e7960fd07a5dc1abef30d754de314e26dd1"
       },
       "heroku/brew": {
-        "revision": "73895eaeed3fb0b3cd90d3dfddb8cfe4178084b1"
+        "revision": "43de466d82a7ae152fa2f6fc3b0ae6598129ad38"
       },
       "homebrew/bundle": {
-        "revision": "40894b3e0cb01c26fd3388309e7e6ae2f35f2593"
+        "revision": "9f44499b36fd4dca63d804ad49af6bff9d6c5588"
       },
       "homebrew/cask": {
-        "revision": "6e2c30c2ad6d470b81670ee8786ec9bfd30a7cfa"
+        "revision": "d79bc9f88fc8028ca03343c70dfc03582fe5aa03"
       },
       "homebrew/cask-fonts": {
         "revision": "be2313365ccccfa366b2a6f73ac9a71d50ee2c61"
       },
       "homebrew/cask-versions": {
-        "revision": "4b2da5f7e463d2a152327acb95a991ceb47f9b55"
+        "revision": "c0390d6825edc59f60ac75905f6d42af79979e1c"
       },
       "homebrew/core": {
-        "revision": "3e0c5719ebe18b13e852d8564f7d5357b66743a9"
+        "revision": "0ec8ceddafc7800f2b11ad6a599a38cb0e653893"
       },
       "homebrew/services": {
-        "revision": "95a4c434575c715632b7cf19f5fc61413aad1c3b"
+        "revision": "a2c3e50e4d1ac0e5f948f7d7fe17281fe1d18f32"
       },
       "puma/puma": {
         "revision": "ab38b76aeae3b39271e59d4900743cbb189defb3"
@@ -146,26 +146,32 @@
         "options": {
           "full_name": "zoomus"
         }
+      },
+      "discord": {
+        "version": "0.0.258",
+        "options": {
+          "full_name": "discord"
+        }
       }
     },
     "brew": {
       "automake": {
-        "version": "1.16.2",
+        "version": "1.16.2_1",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/automake-1.16.2.catalina.bottle.tar.gz",
-              "sha256": "fe26d4df57481b6a7ca0a6915c37c53648c27ffb41926b3570c45f80fdd8888e"
+              "url": "https://homebrew.bintray.com/bottles/automake-1.16.2_1.catalina.bottle.tar.gz",
+              "sha256": "06c47bab91fc9c8a912a162f02fbf4c6d03b75820110250d2408e694bacd8236"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/automake-1.16.2.mojave.bottle.tar.gz",
-              "sha256": "fe26d4df57481b6a7ca0a6915c37c53648c27ffb41926b3570c45f80fdd8888e"
+              "url": "https://homebrew.bintray.com/bottles/automake-1.16.2_1.mojave.bottle.tar.gz",
+              "sha256": "4b120878f02328e006cb51c2456f5ff26e8c5ad5688ac00fada4a53e72479ce6"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/automake-1.16.2.high_sierra.bottle.tar.gz",
-              "sha256": "fe26d4df57481b6a7ca0a6915c37c53648c27ffb41926b3570c45f80fdd8888e"
+              "url": "https://homebrew.bintray.com/bottles/automake-1.16.2_1.high_sierra.bottle.tar.gz",
+              "sha256": "4a98437a54592391f677ecea0bbac02f823e7f3168b9a782067cca9aa8f78b4e"
             }
           }
         }
@@ -1315,10 +1321,13 @@
               "sha256": "26a0d0f1879743b66781123895941cb849b38a636be3213dd0dd2ed0b2685250"
             }
           }
+        },
+        "options": {
+          "link": false
         }
       },
       "rabbitmq": {
-        "version": "3.8.6",
+        "version": "3.8.7",
         "bottle": false,
         "options": {
           "restart_service": true
@@ -1530,7 +1539,7 @@
       },
       "Keynote": {
         "id": "409183694",
-        "version": "9.2.1"
+        "version": "10.1"
       },
       "Kindle": {
         "id": "405399194",
@@ -1567,7 +1576,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.4.12",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "3e0c5719ebe18b13e852d8564f7d5357b66743a9",
+        "Homebrew/homebrew-core": "0ec8ceddafc7800f2b11ad6a599a38cb0e653893",
         "CLT": "11.5.0.0.1.1588476445",
         "Xcode": "11.5",
         "macOS": "10.15.4"

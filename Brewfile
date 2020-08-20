@@ -59,7 +59,7 @@ brew "mas"
 brew "nginx", restart_service: true
 brew "node"
 brew "postgresql", restart_service: true
-brew "prettier"
+brew "prettier", link: false
 brew "rabbitmq", restart_service: true
 brew "redis", restart_service: true
 brew "ruby"
@@ -78,6 +78,7 @@ cask "atom"
 cask "chromedriver"
 cask "cyberduck"
 cask "dbeaver-community"
+cask "discord"
 cask "firefox"
 cask "google-backup-and-sync"
 cask "google-chrome"
