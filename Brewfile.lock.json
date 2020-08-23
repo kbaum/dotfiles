@@ -8,19 +8,19 @@
         "revision": "43de466d82a7ae152fa2f6fc3b0ae6598129ad38"
       },
       "homebrew/bundle": {
-        "revision": "9f44499b36fd4dca63d804ad49af6bff9d6c5588"
+        "revision": "f3e71a7f18132d734bd8e9167f1481fefe97acb0"
       },
       "homebrew/cask": {
-        "revision": "d79bc9f88fc8028ca03343c70dfc03582fe5aa03"
+        "revision": "70c2bf3293cf42d3c8a048b05518c6ff496c3327"
       },
       "homebrew/cask-fonts": {
-        "revision": "be2313365ccccfa366b2a6f73ac9a71d50ee2c61"
+        "revision": "815944ad70d5932b51c16ec58bd9e0648ce99e2f"
       },
       "homebrew/cask-versions": {
-        "revision": "c0390d6825edc59f60ac75905f6d42af79979e1c"
+        "revision": "a0732a8b47f7717643669ef6a82722aed98cce43"
       },
       "homebrew/core": {
-        "revision": "0ec8ceddafc7800f2b11ad6a599a38cb0e653893"
+        "revision": "81b050b975c7e3eb6b4822f4c1d57c5830f1cbeb"
       },
       "homebrew/services": {
         "revision": "a2c3e50e4d1ac0e5f948f7d7fe17281fe1d18f32"
@@ -151,6 +151,12 @@
         "version": "0.0.258",
         "options": {
           "full_name": "discord"
+        }
+      },
+      "authy": {
+        "version": "1.8.2",
+        "options": {
+          "full_name": "authy"
         }
       }
     },
@@ -415,22 +421,22 @@
         }
       },
       "cmake": {
-        "version": "3.18.1",
+        "version": "3.18.2",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/cmake-3.18.1.catalina.bottle.tar.gz",
-              "sha256": "590ad7be94461516a5e9c2c4b52316bd77124671bc294835bb7caefc0056d0f6"
+              "url": "https://homebrew.bintray.com/bottles/cmake-3.18.2.catalina.bottle.tar.gz",
+              "sha256": "76c373c703198dd3b079c43f42ff0b043de2676d2e34a43695a917be51a42d54"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/cmake-3.18.1.mojave.bottle.tar.gz",
-              "sha256": "9f0cf88ec2b2f5ba8f0e2dadaae8d287e650136a792589587d3472f481c90dda"
+              "url": "https://homebrew.bintray.com/bottles/cmake-3.18.2.mojave.bottle.tar.gz",
+              "sha256": "f351e121f21a792d8f89d01893b623a3a82cd72af18756211aba04efd3fa4338"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/cmake-3.18.1.high_sierra.bottle.tar.gz",
-              "sha256": "38522cf8d87c44416649c349835e76583bdaa0c23bd68ce1ab4cc4df73f36658"
+              "url": "https://homebrew.bintray.com/bottles/cmake-3.18.2.high_sierra.bottle.tar.gz",
+              "sha256": "8c0167f462ede8d3ab63357d01023f5432b3f155d5debc2cfe21970d83ffcf47"
             }
           }
         }
@@ -1574,9 +1580,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.4.12",
+        "HOMEBREW_VERSION": "2.4.13",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "0ec8ceddafc7800f2b11ad6a599a38cb0e653893",
+        "Homebrew/homebrew-core": "81b050b975c7e3eb6b4822f4c1d57c5830f1cbeb",
         "CLT": "11.5.0.0.1.1588476445",
         "Xcode": "11.5",
         "macOS": "10.15.4"
