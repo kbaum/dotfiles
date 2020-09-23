@@ -158,6 +158,12 @@
         "options": {
           "full_name": "authy"
         }
+      },
+      "postman": {
+        "version": "7.30.1",
+        "options": {
+          "full_name": "postman"
+        }
       }
     },
     "brew": {
@@ -1541,7 +1547,7 @@
       },
       "iMovie": {
         "id": "408981434",
-        "version": "10.1.14"
+        "version": "10.1.15"
       },
       "Keynote": {
         "id": "409183694",
@@ -1553,11 +1559,11 @@
       },
       "Microsoft To Do": {
         "id": "1274495053",
-        "version": "2.23"
+        "version": "2.26"
       },
       "Monosnap": {
         "id": "540348655",
-        "version": "3.6.13"
+        "version": "3.6.15"
       },
       "Numbers": {
         "id": "409203825",
@@ -1583,9 +1589,9 @@
         "HOMEBREW_VERSION": "2.4.13",
         "HOMEBREW_PREFIX": "/usr/local",
         "Homebrew/homebrew-core": "81b050b975c7e3eb6b4822f4c1d57c5830f1cbeb",
-        "CLT": "11.5.0.0.1.1588476445",
-        "Xcode": "11.5",
-        "macOS": "10.15.4"
+        "CLT": "12.0.31.1",
+        "Xcode": "12.0",
+        "macOS": "10.15.6"
       }
     }
   }

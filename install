@@ -28,6 +28,9 @@ npm install -g bower
 npm install -g avn avn-nvm avn-n
 avn setup
 
+
+npm install -g smee-client
+
 curl http://localhost:15672/cli/rabbitmqadmin -o /usr/local/bin/rabbitmqadmin && chmod +x /usr/local/bin/rabbitmqadmin
 #sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
