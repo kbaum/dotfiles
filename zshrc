@@ -106,8 +106,6 @@ source $ZSH/oh-my-zsh.sh
 #chruby
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
-chruby 2.6.3
-
 source ~/.paths
 
 function set_local_bin_path() {

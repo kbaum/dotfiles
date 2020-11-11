@@ -14,9 +14,10 @@ git submodule update --init --recursive "${DOTBOT_DIR}"
 
 "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" --plugin-dir dotbot-brewfile -c "${CONFIG}" "${@}"
 
-ruby-install ruby-2.4.4 --no-reinstall
-ruby-install ruby-2.7.1 --no-reinstall
-ruby-install ruby-2.6.6 --no-reinstall 
+ruby-install --no-reinstall ruby-2.4.4
+ruby-install --no-reinstall ruby-2.7.1
+ruby-install --no-reinstall ruby-2.6.6 
+ruby-install --no-reinstall ruby-2.6.6
 
 brew link --overwrite node
 
