@@ -19,6 +19,7 @@ brew "readline"
 brew "sqlite"
 brew "python@3.9", link: false
 brew "glib"
+brew "cask"
 brew "chruby"
 brew "cmake"
 brew "coreutils"
@@ -78,28 +79,9 @@ brew "yarn"
 brew "zsh"
 brew "heroku/brew/heroku"
 brew "puma/puma/puma-dev"
-cask "1password"
 cask "adoptopenjdk8"
-cask "atom"
-cask "authy"
-cask "chromedriver"
-cask "cyberduck"
-cask "dbeaver-community"
-cask "discord"
-cask "docker"
-cask "firefox"
-cask "google-backup-and-sync"
-cask "google-chrome"
 cask "growlnotify"
-cask "iterm2"
-cask "java6"
 cask "karabiner-elements"
-cask "macdown"
-cask "macvim"
-cask "postman"
-cask "slack"
-cask "spectacle"
-cask "sublime-text"
 cask "zoomus"
 mas "Evernote", id: 406056744
 mas "GarageBand", id: 682658836
@@ -113,3 +95,4 @@ mas "Numbers", id: 409203825
 mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "Weather Dock", id: 886290397
+mas "Xcode", id: 497799835

@@ -14,10 +14,11 @@ git submodule update --init --recursive "${DOTBOT_DIR}"
 
 "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" --plugin-dir dotbot-brewfile -c "${CONFIG}" "${@}"
 
-ruby-install --no-reinstall ruby-2.4.4
-ruby-install --no-reinstall ruby-2.7.1
-ruby-install --no-reinstall ruby-2.6.6 
-ruby-install --no-reinstall ruby-2.6.6
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+ruby-install ruby-2.4.4 --no-reinstall
+ruby-install ruby-2.7.1 --no-reinstall
+ruby-install ruby-2.6.6 --no-reinstall 
+ruby-install ruby-2.6.5 --no-reinstall 
 
 brew link --overwrite node
 
@@ -25,10 +26,6 @@ heroku plugins:install heroku-accounts
 
 npm install -g n
 npm install -g bower
-npm install -g avn avn-nvm avn-n
-avn setup
-
-
 npm install -g smee-client
 
 curl http://localhost:15672/cli/rabbitmqadmin -o /usr/local/bin/rabbitmqadmin && chmod +x /usr/local/bin/rabbitmqadmin
@@ -36,3 +33,5 @@ curl http://localhost:15672/cli/rabbitmqadmin -o /usr/local/bin/rabbitmqadmin &&
 
 sudo puma-dev -setup
 puma-dev -install
+
+initdb /usr/local/var/postgres
