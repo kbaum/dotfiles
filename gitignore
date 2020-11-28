@@ -10,7 +10,6 @@ config/credentials/
 .env.local
 app/jobs/test_logging_job.rb
 doc
-bin
 bin/rails
 bin/rspec
 .env.production

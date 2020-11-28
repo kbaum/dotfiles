@@ -11,7 +11,7 @@
   # Alternate log display from Scott Chacon
   trust = "!mkdir -p .git/safe"
 [github]
-	user = karl.baum@gmail.com
+	user = kbaum
 [core]
 	excludesfile = /Users/karlbaum/.gitignore
 [filter "lfs"]

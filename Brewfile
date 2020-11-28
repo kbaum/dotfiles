@@ -80,8 +80,10 @@ brew "zsh"
 brew "heroku/brew/heroku"
 brew "puma/puma/puma-dev"
 cask "adoptopenjdk8"
+cask "chromedriver"
 cask "growlnotify"
 cask "karabiner-elements"
+cask "visual-studio-code"
 cask "zoomus"
 mas "Evernote", id: 406056744
 mas "GarageBand", id: 682658836
