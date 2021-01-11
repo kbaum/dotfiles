@@ -13,3 +13,4 @@ doc
 bin/rails
 bin/rspec
 .env.production
+.lvimrc

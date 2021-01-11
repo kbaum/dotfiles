@@ -141,3 +141,4 @@ export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
 
 export SMEE_URL=https://smee.io/hOIwIuc2uqHRFpD4
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
