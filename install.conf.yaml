@@ -25,3 +25,4 @@
 - brewfile:
     # This accepts the same options as `brew bundle` command:
     file: Brewfile
+    stdout: true

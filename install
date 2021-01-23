@@ -16,7 +16,6 @@ git submodule update --init --recursive "${DOTBOT_DIR}"
 
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 ruby-install ruby-2.7.2 --no-reinstall
-ruby-install ruby-2.6.6 --no-reinstall 
 ruby-install ruby-2.4.4 --no-reinstall
 
 brew link --overwrite node
