@@ -10,6 +10,7 @@
   l = log --graph -n 1500 --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
   # Alternate log display from Scott Chacon
   trust = "!mkdir -p .git/safe"
+	pushf = push --force-with-lease
 [github]
 	user = kbaum
 [core]
