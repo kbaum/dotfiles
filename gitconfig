@@ -1,5 +1,5 @@
 [user]
-  name = Karl Baum
+	name = kbaum
   email = karl.baum@gmail.com
 [alias]
   co = checkout
@@ -28,3 +28,5 @@
 	helper = osxkeychain
 [pull]
 	rebase = true
+[init]
+	defaultBranch = main

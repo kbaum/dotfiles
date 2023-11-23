@@ -9,8 +9,8 @@ app/workers/test_worker.rb
 config/credentials/
 .env.local
 app/jobs/test_logging_job.rb
-doc
 bin/rails
 bin/rspec
-.env.production
 .lvimrc
+.~lock*
+~$*
